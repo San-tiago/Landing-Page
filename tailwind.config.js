@@ -2,16 +2,18 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary:'#1D1D1F',
+      
+       },
+       fontFamily: {
+       
+         Open: ['Open Sans'],
+       },
+    },
   },
-  colors: {
-     primary:'#1D1D1F',
-   
-    },
-    fontFamily: {
-    
-      pop: ['Poppins'],
-    },
+
   variants: {
     extend: {},
   },
